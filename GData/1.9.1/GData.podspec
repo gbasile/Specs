@@ -23,16 +23,6 @@ Pod::Spec.new do |s|
     gdyt.source_files = 'Source/Clients/YouTube/*.{h,m}', 'Source/Clients/YouTube/Touch/*.{h,m}'
     gdyt.dependency 'GData/Core'
   end
-  
-  s.subspec 'Docs' do |gddocs|
-    gddocs.source_files = 'Source/Clients/Docs/*.{h,m}'
-    gddocs.dependency 'GData/Core'
-  end
-  
-  s.subspec 'Contacts' do |gdctcs|
-    gdctcs.source_files = 'Source/Clients/Contacts/*.{h,m}'
-    gdctcs.dependency 'GData/Core'
-  end
 
   s.subspec 'XMLNode' do |gdxml|
     gdxml.source_files = 'Source/XMLSupport/*.{h,m}'
