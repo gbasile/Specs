@@ -8,7 +8,6 @@ Pod::Spec.new do |s|
   s.author   = { 'The Google Data APIs team' => 'https://code.google.com/p/gdata-objectivec-client' }
   s.source   = { :svn => 'http://gdata-objectivec-client.googlecode.com/svn/trunk', :revision => 'r733' }
   s.resources = 'Source/Oauth2/Mac/GTMOAuth2Window.xib'
-#  s.dependency  'SBJson'
   s.subspec 'Core' do |gdc|
     gdc.source_files   = 'Source/ACL/*.{h,m}', 'Source/BaseClasses/*.{h,m}','Source/Clients/**/*.{h,m}',
 			 'Source/Elements/*.{h,m}', 'Source/Geo/*.{h,m}', 'Source/HTTPFetcher/*.{h,m}',  
